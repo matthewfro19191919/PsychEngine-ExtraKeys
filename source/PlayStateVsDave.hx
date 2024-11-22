@@ -1,4 +1,4 @@
-package; // "Most hard-coded FNF mod ever!!!!!!!!!!" - p0kk0 on GameBanana(https://gamebanana.com/mods/43201?post=10328553)
+package states; // "Most hard-coded FNF mod ever!!!!!!!!!!" - p0kk0 on GameBanana(https://gamebanana.com/mods/43201?post=10328553)
 //package2.0; // I SOFTCODED IT HAHAHHAHAAH
 import flixel.system.FlxAssets;
 import flixel.system.FlxAssets.FlxSoundAsset;
@@ -107,7 +107,7 @@ import vlc.MP4Handler;
 
 using StringTools;
 
-class PlayState extends MusicBeatState
+class PlayStateVsDave extends MusicBeatState
 {
 	public static var mania:Int = 0;
 
