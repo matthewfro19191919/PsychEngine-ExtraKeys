@@ -112,6 +112,13 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'guitarHeroSustains',
 			'bool');
 		addOption(option);
+		
+		var option:Option = new Option('VsDave Notes',
+			'If unchecked, dave and bambi notes get disabled.',
+			'VsDaveStrums',
+			'bool');
+		addOption(option);
+
 
 		super();
 	}
