@@ -4,9 +4,7 @@ import flixel.FlxG;
 import flixel.FlxSprite;
 import PlayState;
 
-class StrumNote extends FlxSprite
-
-class StrumNoteVsDave
+class StrumNoteVsDave extends FlxSprite
 {
 	public var baseX:Float;
 	public var baseY:Float;
